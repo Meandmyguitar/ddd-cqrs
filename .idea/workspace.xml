@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd891efc-1e04-431d-a9a0-91b5137dd878" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/mysql_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/CargoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/CargoCmdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/IncidentLoggingCmdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoDeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoDeliveryUpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoSenderUpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/HandlingEventAddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/impl/CargoCmdServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/impl/IncidentLoggingCmdServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/CargoQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/RoutingQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/TrackQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/CargoDTOAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/CarrierMovementDTOAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/HandlingEventDTOAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CargoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CargoHandlingEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CarrierMovementDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/HandlingEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/CargoQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/RoutingQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/TrackQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/qry/CargoFindbyCustomerQry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/qry/EventFindbyCargoQry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/CargoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/IncidentLogginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/RoutingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/TrackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/CargoBookDomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/CargoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/valueobject/DeliverySpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/valueobject/EnterpriseSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/carriermovement/CarrierMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/carriermovement/CarrierMovementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/EventTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/HandlingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/HandlingEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/location/LocationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/CargoDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/TestDomainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/cache/RedisCacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/CargoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/CarrierMovementConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/HandlingEventConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/LocationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/CargoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/CarrierMovementDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/HandlingEventDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/LocationDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/CargoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/CarrierMovementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/HandlingEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/LocationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/CargoRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/CarrierMovementRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/HandlingEventRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/LocationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/event/GuavaDomainEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/event/comsumer/CargoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/mq/KafkaMQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/mq/comsumer/CargoConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/RemoteServiceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/RemoteServiceTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/SalersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/dataobject/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/DomainEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/MQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/cargo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/carrier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/handlingevent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/cargo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/css/cargo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/js/cargo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/modifydelivery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/resources/static/modifyphone.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/work/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iuLZfWKd0D8MNMPswQqv2DhYxd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd891efc-1e04-431d-a9a0-91b5137dd878" name="Default Changelist" comment="" />
+      <created>1602752586592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602752586592</updated>
+      <workItem from="1602752587704" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="197" y="-890" key="SettingsEditor" timestamp="1602752615354">
+      <screen x="-294" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="197" y="-890" key="SettingsEditor/0.23.1440.798/-294.-1057.1920.1057@-294.-1057.1920.1057" timestamp="1602752615354" />
+  </component>
+</project>
