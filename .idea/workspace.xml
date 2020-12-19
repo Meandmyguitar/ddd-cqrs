@@ -14,12 +14,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd891efc-1e04-431d-a9a0-91b5137dd878" name="Default Changelist" comment="wzp-demo项目中迁移到此处">
+      <change afterPath="$PROJECT_DIR$/ddd/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/CargoCmdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/IncidentLoggingCmdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/RoutingQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/TrackQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/account/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/account/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/cargo/valueobject/EnterpriseSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/cache/RedisCacheService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/CargoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/CargoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/CargoCmdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/IncidentLoggingCmdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoBookCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/cmd/CargoBookCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoDeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/cmd/CargoDeleteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoDeliveryUpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/cmd/CargoDeliveryUpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/CargoSenderUpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/cmd/CargoSenderUpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/cmd/HandlingEventAddCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/cmd/HandlingEventAddCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/impl/CargoCmdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/impl/CargoCmdServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/command/impl/IncidentLoggingCmdServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/command/impl/IncidentLoggingCmdServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/CargoQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/CargoQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/RoutingQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/TrackQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/CargoDTOAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/assembler/CargoDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/CarrierMovementDTOAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/assembler/CarrierMovementDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/assembler/HandlingEventDTOAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/assembler/HandlingEventDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CargoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/dto/CargoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CargoHandlingEventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/dto/CargoHandlingEventDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/CarrierMovementDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/dto/CarrierMovementDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/dto/HandlingEventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/dto/HandlingEventDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/CargoQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/impl/CargoQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/RoutingQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/impl/RoutingQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/impl/TrackQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/impl/TrackQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/qry/CargoFindbyCustomerQry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/qry/CargoFindbyCustomerQry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/application/query/qry/EventFindbyCargoQry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/application/query/qry/EventFindbyCargoQry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/CargoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/controller/CargoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/IncidentLogginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/controller/IncidentLogginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/RoutingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/controller/RoutingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/controller/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/controller/TrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/cargo/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/CargoBookDomainEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/cargo/CargoBookDomainEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/CargoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/cargo/CargoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/valueobject/DeliverySpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/cargo/valueobject/DeliverySpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/cargo/valueobject/EnterpriseSegment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/carriermovement/CarrierMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/carriermovement/CarrierMovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/carriermovement/CarrierMovementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/carriermovement/CarrierMovementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/EventTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/handlingevent/EventTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/HandlingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/handlingevent/HandlingEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/handlingevent/HandlingEventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/handlingevent/HandlingEventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/location/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/aggregate/location/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/aggregate/location/LocationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/CargoDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/service/CargoDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/service/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/domain/service/TestDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/domain/service/TestDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/cache/RedisCacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/CargoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/converter/CargoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/CarrierMovementConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/converter/CarrierMovementConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/converter/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/HandlingEventConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/converter/HandlingEventConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/converter/LocationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/converter/LocationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/CargoDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/dataobject/CargoDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/CarrierMovementDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/dataobject/CarrierMovementDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/HandlingEventDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/dataobject/HandlingEventDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/dataobject/LocationDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/dataobject/LocationDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/CargoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/mapper/CargoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/CarrierMovementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/mapper/CarrierMovementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/HandlingEventMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/mapper/HandlingEventMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/mapper/LocationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/mapper/LocationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/CargoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/repository/CargoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/CarrierMovementRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/repository/CarrierMovementRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/HandlingEventRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/repository/HandlingEventRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/db/repository/LocationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/db/repository/LocationRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/event/GuavaDomainEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/event/GuavaDomainEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/event/comsumer/CargoListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/event/comsumer/CargoListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/mq/KafkaMQProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/mq/KafkaMQProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/mq/comsumer/CargoConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/mq/comsumer/CargoConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/RemoteServiceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/rpc/salessystem/RemoteServiceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/RemoteServiceTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/rpc/salessystem/RemoteServiceTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/SalersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/rpc/salessystem/SalersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/infrastructure/rpc/salessystem/dataobject/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/infrastructure/rpc/salessystem/dataobject/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/shared/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/DomainEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/shared/DomainEventPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/MQProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/shared/MQProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/java/com/wzp/cloud/support/shared/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/java/com/demo/shared/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/resources/mapper/cargo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/cargo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/resources/mapper/carrier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/carrier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/resources/mapper/handlingevent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/handlingevent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/src/main/resources/mapper/location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/src/main/resources/mapper/location.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +123,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/work/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -41,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -53,6 +149,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.demo.domain.aggregate.account" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +179,8 @@
       <updated>1602752586592</updated>
       <workItem from="1602752587704" duration="713000" />
       <workItem from="1603076501536" duration="3010000" />
+      <workItem from="1608192935611" duration="3367000" />
+      <workItem from="1608357150373" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="wzp-demo项目中迁移到此处">
       <created>1602752754286</created>
@@ -92,15 +210,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wzp-demo项目中迁移到此处" />
     <option name="LAST_COMMIT_MESSAGE" value="wzp-demo项目中迁移到此处" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="197" y="-890" key="SettingsEditor" timestamp="1602752615354">
-      <screen x="-294" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="197" y="-890" key="SettingsEditor/0.23.1440.798/-294.-1057.1920.1057@-294.-1057.1920.1057" timestamp="1602752615354" />
-    <state x="266" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1602752787622">
-      <screen x="-294" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="266" y="-789" key="Vcs.Push.Dialog.v2/0.23.1440.798/-294.-1057.1920.1057@-294.-1057.1920.1057" timestamp="1602752787622" />
   </component>
 </project>
